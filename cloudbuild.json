@@ -1,0 +1,12 @@
+{
+    "steps": [
+        {
+            "name" : "gcr.io/cloud-builders/docker@sha256:255467d8ede72b2af188d035ac4629ac6d0c0fe14dbd835f13cacd15da0fa4a1",
+            "args": [
+                "run",
+                "gcr.io/terraformproject-264509/terraform-img"
+            ],
+            "id" : "Start terraform module"
+        }
+    ]
+}
